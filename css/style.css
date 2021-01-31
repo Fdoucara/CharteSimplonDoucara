@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+        width: 100%;
+        height: 200px;
+}
+
+.menu {
+	height: 100px;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title_menu-name {
+	margin-left: 270px;
+	font-weight: 400px;
+}
+
+.bouton_menuname {
+	width: 100%;
+}
+
+.bouton {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-decoration: none;
+	color: white;
+	border:solid;
+	border-radius: 5px;
+	border-color:#c0392b;
+	background-color:#c0392b;
+	margin-right: 450px;
+}
+
+.bouton a{
+	text-decoration: none;
+	color: white;
+}
+
+.bouton:hover {
+	background-color:#d63031;
+	border-color: #d63031;
+}
+
+.sousmenu {
+	margin-top: -30px;
+	margin-left: 270px;
+	width: 470px;
+}
+
+._box ul li {
+	list-style-image: url('../images/bullet.png'); 
+	margin-top: 10px;
+}
+
+._box {
+	margin-top: 25px;
+	padding-left: 8px;
+	padding: 20px;
+	padding-top: 10px;
+	margin-left: 270px;
+	width: 65%;
+	border: solid;
+	border-radius: 7px;
+	border-color: white;
+	background-color: white;
+	box-shadow: -1px -1px 15px 10px #dfe6e9;
+}
+
+.un {
+	margin-left: 270px;
+
+}
+
+
+.five_box {
+	margin-top: 10px;
+	padding-left: 60px;
+	padding: 70px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-left: 270px;
+	width: 65%;
+	border: solid;
+	border-width: 1px;
+	border-radius: 7px;
+	border-color: #b2bec3;
+	background-color: #ecf0f1;
+	margin-bottom: 15px;
+}
+
+.title1 {
+	padding-left: 3px;
+	margin-top: 8px;
+	font-weight: 400px;
+}
+
+.peigne {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.cliquez {
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+.liste {
+	padding-left: 20px;
+	display: none;
+ }
+
+.last {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#Random {
+ 	margin-top: 20px;
+ 	display: flex;
+ 	justify-content: center;
+ }
+
+.aleatoire {
+	width: 15%;
+ 	padding: 10px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	margin-top: 20px;
+ 	margin-bottom: 40px;
+ }
+
+ 
