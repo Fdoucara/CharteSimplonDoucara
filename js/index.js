@@ -20,7 +20,7 @@ var random = document.querySelector(".aleatoire");
 console.log(random);
 
 random.addEventListener('click', function() {
-	var apprenant =['Fodie','David','Denis'];
+	var apprenant = ["Abdoulaye","Abdoul-Nasser","Maxime" ,"Alexis","Alicia","Asad","Ayoub","Ahmadu-Bamba","Caroline", "Charles","David","Denis","Elyesse","Farima","Flora","Fodié","Gaëlle","Jonathan","Kevin","Lobna","Lyes","Maëlys","Muhammad","Mohamed"];
 	var nom = apprenant[Math.floor(Math.random() * apprenant.length)];
 	random.textContent = nom;
 })
