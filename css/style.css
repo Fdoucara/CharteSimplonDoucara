@@ -190,3 +190,28 @@ a {
 		margin-top: 30px;
 	}
 }
+@media(max-width: 1000px){
+
+	.menu-link{
+		width: 40%;
+		margin: auto;
+	}
+	.menu{
+		flex-direction: column;
+	}
+	.header {
+		justify-content: center;
+		align-items: center;
+	}
+	.header h1 {
+		margin: 0 auto;
+		width: 65%;
+	}
+	pre{
+		overflow-x: hidden;
+	}
+	.submenu, .submenu p {
+		width: 100%;
+	}
+
+}
